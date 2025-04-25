@@ -344,7 +344,7 @@ document.addEventListener("DOMContentLoaded", () => {
     card.innerHTML = `
             <img src="${product.image}" alt="${product.name}" class="phone-image">
             <div class="phone-details">
-                <h3 class="phone-name"><a href="product-details.html?id=${product.id}">${product.name}</a></h3>
+                <h3 class="phone-name"><a href="Detalles-productos.html?id=${product.id}">${product.name}</a></h3>
                 
                 <div class="phone-colors">
                     ${colorDotsHTML}
